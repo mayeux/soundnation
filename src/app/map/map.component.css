@@ -1,0 +1,278 @@
+
+h1{
+    border-bottom: solid;
+    color: black;
+    text-align: center;
+    padding: 8%;
+    /* background-color: lightslategray !important; */
+     /* background-image:url("C:\Users\Nieu\Desktop\mspr_front\src\assets\test.png");
+     background-repeat: no-repeat;
+     background-size: cover; */
+ }
+h2{
+    color: darkslategray;
+}
+#box{
+    display: flex !important;
+    flex: auto;
+    
+}
+#one{
+    flex: 1 1 auto;
+    
+}
+#two{
+    flex: 1 1 auto;
+    background-color: lightsalmon;
+    
+}
+#three{
+    flex: 1 1 auto;
+}
+h1, h2, p, body{
+    text-align: center;
+    /* background-color: rgb(115, 182, 199); */
+    
+}
+#bordure{
+    border-bottom: solid 5px lightskyblue;
+}
+.my-custom-class {
+    border-width: 9px;
+    border-style: solid;
+    border-color: red;
+  }
+
+
+  @media (max-width: 1250px) { 
+
+        /*  Configuration générale des pages    */
+        
+        body{
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .multibuttons i {
+            font-size:37px;
+            color:thistle;
+            margin-bottom:10px;
+        }
+
+        a{
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .titre-section{
+            margin-top:50px;
+            margin-left:30px;
+            letter-spacing: 0.1em;
+            color:thistle;
+            font-weight: bold;
+            font-size: 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        /*  Haut des pages    */
+
+        header{
+        }
+
+        header img{
+            width: 100%;
+        }
+
+        .multibuttons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            background-color:white;
+            position: absolute;
+            left:20px;
+            right:20px;
+            padding:10px 0;
+            margin-top: -90px;
+            color: #E4223F;
+            border-radius: 25px;
+            box-shadow: 0px 0px 15px #212120;
+        }
+
+        .ticket{
+            padding:10px 10px;
+            border-right:1px solid thistle;
+            text-align: center;
+            color:thistle;
+            font-family: 'Montserrat';
+        }
+
+        .liste-concerts {
+            padding:10px 10px;
+            border-right:1px solid thistle;
+            text-align: center;
+            color:thistle;
+            font-family: 'Montserrat';
+        }
+
+        .temperature{
+            padding:10px 10px;
+            text-align: center;
+            color:thistle;
+            font-family: 'Montserrat';
+        }
+
+        .infos{
+            margin-top:50px;
+        }
+
+        /*  Page des programmes    */
+
+        .developpement-general {
+            display:block;
+        }
+
+        .box-items{
+            display: flex;
+            flex-direction: column;
+            margin:50px 50px 0px 50px;
+            background-color:white;
+            border-radius:25px;
+            box-shadow: 0px 0px 25px grey;
+        }
+
+        .image-artiste{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        .image-artiste img {
+            width:100%;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+
+        .contenu {
+            margin:10px 0px;
+            padding-left:15px;
+        }
+
+        .contenu .artiste{
+            font-weight: bold;
+            letter-spacing: 0.1em;
+        }
+
+        /*  Section de la carte (accueil)  */
+
+        .carte-accueil{
+            display: flex;
+            flex-direction: column;
+            margin:50px 50px 100px 50px;
+            background-color:white;
+            border-radius:25px;
+            box-shadow: 0px 0px 25px grey;
+        }
+
+        .image-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        .image-content img {
+            width:100%;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+        }
+
+        .carte-text {
+            margin:10px 0px;
+            padding-left:15px;
+            font-weight: bold;
+            letter-spacing: 0.1em;
+        }
+
+        /*  Page de la carte    */
+        .map-general {
+            margin-top:40px;
+            margin-bottom:70px;
+        }
+        .boutton-map button{
+            background-color:thistle;
+            border: 1px solid white;
+            color:white;
+            text-decoration: none;
+            border-radius:25px;
+            padding:5px 10px;
+            margin:5px;
+        }
+
+        .boutton-map button:hover{
+            background-color:indigo;
+            color:white;
+            text-decoration: none;
+            border-radius:25px;
+            padding:5px 10px;
+        }
+
+        /*  Footer    */
+
+        footer{
+            padding-top:20px;
+            padding-bottom:20px;
+            box-shadow: 0px 0px 25px grey;
+            border-top-right-radius: 25px;
+            border-top-left-radius:25px;
+            position: fixed;
+            right: 0;
+            left: 0;
+            top: 91%;
+            z-index: 1;
+            background-color: white;
+            
+        }
+
+        .section-menu-footer{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+
+        .section-menu-footer i {
+            font-size: 24px;
+            color:thistle;
+        }
+
+        .section-menu-footer .shop i{
+            font-size:40px;
+        }
+
+        .home{
+            flex:1 1;
+            text-align: center;
+        }
+
+        .carte{
+            flex:1 1;
+            text-align: center;
+        }
+
+        .shop{
+            flex:1 1;
+            text-align: center;
+        }
+
+        .partenaires{
+            flex:1 1;
+            text-align: center;
+        }
+
+        .contact{
+            flex:1 1;
+            text-align: center;
+        }
+    }

@@ -1,0 +1,79 @@
+@media (max-width: 1250px) { 
+
+    /*  Configuration générale des pages    */
+    
+    body{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .multibuttons i {
+        font-size:37px;
+        color:thistle;
+        margin-bottom:10px;
+    }
+
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .titre-section{
+        margin-top:50px;
+        margin-left:30px;
+        letter-spacing: 0.1em;
+        color:thistle;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .partenaire{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        margin:25px 50px;
+        border: 5px solid thistle;
+        border-radius: 25px;
+        padding:10px 15px;
+        box-shadow: 0px 0px 15px grey;
+    }
+
+    .partenaire-logo {
+        width:100%;
+        text-align: center;
+    }
+
+    .partenaire-logo img {
+        width:50%;
+    }
+
+    .partenaire-content{
+        text-align: center;
+    }
+
+    .partenaire-nom{
+        color:thistle;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin:10px 0px;
+        font-size: 17px;
+        font-family: 'montserrat';
+    }
+
+    .partenaire-description{
+        font-family: 'montserrat';
+        font-weight: lighter;
+        letter-spacing: 0.1em;
+    }
+
+    .partenaire-social i {
+        font-size:30px;
+        padding:0px 10px;
+        margin-top:10px;
+        color:thistle;
+    }
+}
