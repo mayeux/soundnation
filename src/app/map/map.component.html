@@ -1,0 +1,20 @@
+<div class="map-general">
+
+<google-map height="500px" width="100%" [zoom]="zoom" [center]="center" [options]="options"
+    (mapClick)="click($event)" class="carte">
+    <map-marker #markerElem *ngFor="let marker of markers" [position]="marker.position" [label]="marker.label"
+      [title]="marker.title" [options]="marker.options" (mapClick)="openInfo(markerElem, marker.info)">
+    </map-marker>
+
+    <map-info-window>{{ infoContent }}</map-info-window>
+  </google-map>
+  <div class="boutton-map">
+    <button (click)="zoomIn()">Zoom in</button>
+    <button (click)="zoomOut()">Zoom out</button>
+    <button (click)="addMarker()">Scène Métal</button>
+    <button (click)="addMarker1()">Scène Reggae</button>
+    <button (click)="addMarker2()">Scène Rap</button>
+    <button (click)="addMarker3()">Scène Electro</button>
+  </div>
+</div>
+<br>

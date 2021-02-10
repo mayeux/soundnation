@@ -1,0 +1,23 @@
+<div class="titre-section">
+  Nos événements
+</div>
+<div *ngFor="let festival of festivalDatas">
+    <app-festival [festival]='festival'></app-festival>
+    
+</div>
+
+<div class="titre-section">
+    Voir la carte
+  </div>
+  <div class="carte-accueil">
+    <a href="#">
+      <div class="image-content">
+        <img src="../assets/carte.PNG" alt="image de la carte">
+      </div>
+      <div class="carte-text">
+        Voir la carte des différents événements
+      </div>
+    </a>
+  </div>
+
+-
